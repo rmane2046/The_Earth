@@ -1,0 +1,286 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+header {
+    display: flex;               /* Make children align in a row */
+    justify-content: space-between;  /* Push logo left, nav right */
+    align-items: center;         /* Align them vertically */
+    padding: 0 40px;             /* Optional side padding */
+    height: 60px;                /* Set a consistent height */
+    background-color: black;     /* Optional background */
+}
+
+#head {
+    display: flex;               /* Make links appear in a row */
+    gap: 20px;                   /* Space between links */
+}
+
+#head a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;                /* Optional for visibility */
+}
+#first{
+    background-image: url('earth.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+#heading{
+    color: white;
+    font-size: 75px;
+    gap: 5px;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0;
+    margin-bottom: 153px;
+}
+#third{
+    background-image: url('about-earth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+    
+}
+#third-child{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 63%;
+     
+    
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    width: 25px;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#last-one{
+    display: flex;
+    column-gap: 20px;
+}
+#just{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+            border: 1px solid rgba(244, 236, 236, 0.621);
+            
+            
+        }
+#land-one{
+    background-image: url('river.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+    
+}
+#head-start{
+    background-image: url('mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#head-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#head-heading{
+    color: white;
+    font-size: 115px;
+    gap: 5px;
+}
+#head-end{
+    background-image: url('volcano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#head-end2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#head-end3{
+    color: white;
+    font-size: 115px;
+    gap: 5px;
+}
+#wild-one{
+    background-image: url('lion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+    
+}
+#wild-start{
+    background-image: url('deear.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+
+    
+
+
+}
+#wild-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+   
+    
+    
+}
+#wild-heading{
+    color: white;
+    font-size: 115px;
+    gap: 5px;
+    width: 100px;
+    padding-left: 55px;
+}
+#wild-child{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 455px;
+    padding-right: 79%;
+
+     
+    
+}
+#wild-end{
+    background-image: url('chita.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#wild-end2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#wild-end3{
+    color: white;
+    font-size: 115px;
+    gap: 5px;
+}
+#aone{
+    background-image: url('plu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+#about-end{
+    background-image: url('plu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#about-end2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#about-end3{
+    color: white;
+    font-size: 115px;
+    gap: 5px;
+}
