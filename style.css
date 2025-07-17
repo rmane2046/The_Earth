@@ -4,23 +4,23 @@ body{
     
 }
 header {
-    display: flex;               /* Make children align in a row */
-    justify-content: space-between;  /* Push logo left, nav right */
-    align-items: center;         /* Align them vertically */
-    padding: 0 40px;             /* Optional side padding */
-    height: 60px;                /* Set a consistent height */
-    background-color: black;     /* Optional background */
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;       
+    padding: 0 40px;             
+    height: 60px;                
+    background-color: black;     
 }
 
 #head {
-    display: flex;               /* Make links appear in a row */
-    gap: 20px;                   /* Space between links */
+    display: flex;             
+    gap: 20px;                  
 }
 
 #head a {
     font-size: 15px;
     text-decoration: none;
-    color: white;                /* Optional for visibility */
+    color: white;               
 }
 #first{
     background-image: url('earth.jpg');
@@ -283,4 +283,29 @@ a:hover{
     color: white;
     font-size: 115px;
     gap: 5px;
+}
+#rdr-start{
+    background-image: url('haa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    
+
+
+}
+#rdr-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#rdr-heading{
+
+    color: white;
+    font-size: 95px;
+    gap: 5px;
+    width: 35px;
 }
